@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Interview Prep Hub</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<h1>Interview Prep Hub</h1>
+		<nav class="nav">
+			<a href="#home" class="nav-link" data-route="home">Home</a>
+			<a href="#mock" class="nav-link" data-route="mock">Mock Interviews</a>
+			<a href="#exams" class="nav-link" data-route="exams">Company Exams</a>
+			<a href="#history" class="nav-link" data-route="history">History</a>
+		</nav>
+	</header>
+
+	<main id="app" class="app">
+		<section id="home" class="route route-active">
+			<div class="intro">
+				<h2>Crack your first tech job</h2>
+				<p>Practice company-wise mock interviews, timed MCQ tests, and track your progress locally.</p>
+			</div>
+			<div class="company-filter">
+				<label for="companySelect">Browse by company</label>
+				<select id="companySelect"></select>
+				<button id="viewCompany" class="btn">View</button>
+			</div>
+			<section class="grid" id="companyGrid"></section>
+		</section>
+
+		<section id="mock" class="route">
+			<h2>Mock Interviews</h2>
+			<div class="company-filter">
+				<label for="mockCompanySelect">Company</label>
+				<select id="mockCompanySelect"></select>
+				<button id="startMock" class="btn">Start Mock</button>
+			</div>
+			<div id="mockContainer" class="panel"></div>
+		</section>
+
+		<section id="exams" class="route">
+			<h2>Company Exams</h2>
+			<div class="company-filter">
+				<label for="examCompanySelect">Company</label>
+				<select id="examCompanySelect"></select>
+				<button id="startExam" class="btn">Start Exam</button>
+			</div>
+			<div class="exam-controls hidden" id="examControls">
+				<div class="timer" id="examTimer">00:00</div>
+				<div class="progress" id="examProgress">0/0</div>
+				<button id="submitExam" class="btn btn-primary">Submit</button>
+			</div>
+			<div id="examContainer" class="panel"></div>
+		</section>
+
+		<section id="history" class="route">
+			<h2>History</h2>
+			<div id="historyContainer" class="panel"></div>
+		</section>
+	</main>
+
+	<div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+		<div class="modal-content">
+			<h3 id="modalTitle">Result</h3>
+			<div id="modalBody"></div>
+			<div class="modal-actions">
+				<button id="modalClose" class="btn">Close</button>
+			</div>
+		</div>
+	</div>
+
+	<footer class="site-footer">
+		<p>Made for freshers • Practice, Learn, Succeed</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

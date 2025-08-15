@@ -1,0 +1,39 @@
+{
+	"companies": [
+		{"id": "google", "name": "Google", "domain": "Product/Systems", "level": "Medium", "summary": "DSA + systems design focused interviews."},
+		{"id": "tcs", "name": "TCS", "domain": "Services", "level": "Easy", "summary": "Aptitude and basics of programming."},
+		{"id": "amazon", "name": "Amazon", "domain": "Product", "level": "Medium", "summary": "Leadership principles + DSA."}
+	],
+	"questionsByCompany": {
+		"google": {
+			"interview": [
+				{"question": "Design a URL shortener.", "points": ["Define requirements (functional, non-functional)", "Data model (hash, collision strategy)", "API design", "Rate limiting, caching", "Scale: sharding, replication"]},
+				{"question": "What is the time complexity of heap operations?", "points": ["Insertion O(log n)", "Extract-min O(log n)", "Peek O(1)", "Build-heap O(n)"]}
+			],
+			"mcq": [
+				{"question": "Which data structure is best for implementing a priority queue?", "choices": ["Queue", "Stack", "Heap", "BST"], "answer": 2},
+				{"question": "Which sorting is stable?", "choices": ["Quick sort", "Merge sort", "Heap sort", "Selection sort"], "answer": 1}
+			]
+		},
+		"tcs": {
+			"interview": [
+				{"question": "Explain OOP pillars.", "points": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"]},
+				{"question": "Difference between array and linked list.", "points": ["Contiguous vs scattered", "Random access vs sequential", "Insert/delete complexity"]}
+			],
+			"mcq": [
+				{"question": "2's complement of 0101 is?", "choices": ["1010", "1011", "0110", "1101"], "answer": 1},
+				{"question": "Output of 5%2 is?", "choices": ["2", "1", "0", "-1"], "answer": 1}
+			]
+		},
+		"amazon": {
+			"interview": [
+				{"question": "Explain an instance you took ownership.", "points": ["Context", "Actions", "Metrics", "Learnings"]},
+				{"question": "Find first non-repeating character.", "points": ["Use frequency map", "One pass to count", "Second pass to find"]}
+			],
+			"mcq": [
+				{"question": "Which traversal gives sorted order for BST?", "choices": ["Preorder", "Inorder", "Postorder", "Level order"], "answer": 1},
+				{"question": "Space complexity of DFS using recursion on a path graph of n nodes?", "choices": ["O(1)", "O(log n)", "O(n)", "O(n log n)"], "answer": 2}
+			]
+		}
+	}
+}
