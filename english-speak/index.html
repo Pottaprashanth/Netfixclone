@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpeakEnglish</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">SpeakEnglish</div>
+    <div class="controls">
+      <label>
+        Voice:
+        <select id="voiceSelect"></select>
+      </label>
+      <label>
+        Rate:
+        <input id="rateRange" type="range" min="0.6" max="1.4" step="0.05" value="1">
+      </label>
+      <button id="toggleThemeBtn" title="Toggle theme">🌓</button>
+    </div>
+  </header>
+
+  <div class="app-container">
+    <aside class="sidebar" id="levelsSidebar">
+      <h2>Levels</h2>
+      <div id="levelsList" class="list"></div>
+    </aside>
+
+    <aside class="sidebar" id="lessonsSidebar">
+      <h2>Lessons</h2>
+      <div id="lessonsList" class="list muted">Select a level</div>
+    </aside>
+
+    <main class="main" id="main">
+      <div class="banner" id="compatBanner"></div>
+      <section id="lessonIntro" class="card hidden"></section>
+      <section id="activityChooser" class="card hidden"></section>
+      <section id="activityRoot" class="card hidden"></section>
+    </main>
+  </div>
+
+  <footer class="app-footer">
+    <div>Tip: Allow microphone access for speaking practice. Best used in a Chromium-based browser.</div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

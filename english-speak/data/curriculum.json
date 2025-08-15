@@ -1,0 +1,142 @@
+{
+  "levels": [
+    {
+      "id": "a1",
+      "title": "Beginner A1",
+      "description": "Foundational everyday English",
+      "lessons": [
+        {
+          "id": "a1-greetings",
+          "title": "Greetings & Introductions",
+          "objectives": [
+            "Say hello and goodbye",
+            "Introduce yourself",
+            "Ask someone's name"
+          ],
+          "phrases": [
+            "Hello!",
+            "Hi, how are you?",
+            "I'm fine, thank you.",
+            "What is your name?",
+            "My name is Alex.",
+            "Nice to meet you."
+          ],
+          "dialogues": [
+            { "a": "Hello! I'm Maya.", "b": "Hi Maya, I'm Ben. Nice to meet you!" },
+            { "a": "What is your name?", "b": "I'm Sara." }
+          ],
+          "vocabulary": [
+            { "word": "hello", "meaning": "a greeting", "example": "Hello, my name is Maya." },
+            { "word": "goodbye", "meaning": "a parting phrase", "example": "Goodbye! See you tomorrow." },
+            { "word": "name", "meaning": "what you are called", "example": "What is your name?" }
+          ]
+        },
+        {
+          "id": "a1-everyday",
+          "title": "Everyday Politeness",
+          "objectives": ["Use please/thank you", "Make simple requests"],
+          "phrases": [
+            "Please.",
+            "Thank you.",
+            "You're welcome.",
+            "Excuse me.",
+            "Could you help me, please?"
+          ],
+          "dialogues": [
+            { "a": "Excuse me, where is the bus stop?", "b": "It's over there." },
+            { "a": "Thank you!", "b": "You're welcome." }
+          ],
+          "vocabulary": [
+            { "word": "please", "meaning": "polite marker", "example": "Could you pass the salt, please?" },
+            { "word": "excuse", "meaning": "to get attention or apologize", "example": "Excuse me, is this seat free?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "title": "Intermediate B1",
+      "description": "Independent communication in familiar topics",
+      "lessons": [
+        {
+          "id": "b1-smalltalk",
+          "title": "Small Talk & Opinions",
+          "objectives": ["Start small talk", "Give simple opinions"],
+          "phrases": [
+            "What do you do in your free time?",
+            "I enjoy reading and hiking.",
+            "In my opinion, it's important to exercise.",
+            "I think it's a great idea."
+          ],
+          "dialogues": [
+            { "a": "Do you like traveling?", "b": "Yes, I love exploring new places." }
+          ],
+          "vocabulary": [
+            { "word": "opinion", "meaning": "a personal view", "example": "In my opinion, it's too expensive." },
+            { "word": "enjoy", "meaning": "to take pleasure in", "example": "I enjoy cooking on weekends." }
+          ]
+        },
+        {
+          "id": "b1-work",
+          "title": "Work & Studies",
+          "objectives": ["Describe your job/studies", "Discuss schedules"],
+          "phrases": [
+            "I work as a designer.",
+            "I'm studying computer science.",
+            "My schedule is quite busy this week.",
+            "I have a meeting at nine."
+          ],
+          "dialogues": [
+            { "a": "What do you do?", "b": "I'm a software engineer." }
+          ],
+          "vocabulary": [
+            { "word": "schedule", "meaning": "a plan of activities", "example": "My schedule is full on Monday." },
+            { "word": "meeting", "meaning": "a gathering", "example": "We have a meeting at 3 PM." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "title": "Advanced C1",
+      "description": "Fluent, flexible communication",
+      "lessons": [
+        {
+          "id": "c1-discussion",
+          "title": "Nuanced Discussion",
+          "objectives": ["Express nuanced views", "Use hedging"],
+          "phrases": [
+            "It seems to me that...",
+            "I'm not entirely convinced.",
+            "There's a strong case to be made for...",
+            "We should consider the broader context."
+          ],
+          "dialogues": [
+            { "a": "While I see your point, I'm not entirely convinced.", "b": "That's fair; perhaps we need more data." }
+          ],
+          "vocabulary": [
+            { "word": "nuanced", "meaning": "showing subtle distinctions", "example": "She offered a nuanced perspective." },
+            { "word": "hedge", "meaning": "to avoid committing fully", "example": "He tended to hedge his statements." }
+          ]
+        },
+        {
+          "id": "c1-present",
+          "title": "Presentations & Rhetoric",
+          "objectives": ["Structure arguments", "Use rhetorical devices"],
+          "phrases": [
+            "To begin with, I'd like to outline...",
+            "Let me illustrate this with an example.",
+            "To summarize, ..."
+          ],
+          "dialogues": [
+            { "a": "To summarize, our proposal offers three benefits.", "b": "Thank you. Any questions from the audience?" }
+          ],
+          "vocabulary": [
+            { "word": "rhetoric", "meaning": "effective speaking/writing", "example": "His rhetoric was persuasive." },
+            { "word": "illustrate", "meaning": "to explain with examples", "example": "Let me illustrate the point." }
+          ]
+        }
+      ]
+    }
+  ]
+}
